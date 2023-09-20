@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Jogo - Estrourando Balões</title>
+  <meta charset="utf-8">
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="/estourando-baloes/css/estilo.css">
+
+  <!-- javascript -->
+  <script src="/estourando-baloes/script/jogo.js"></script>
+
+</head>
+
+<body onload="iniciaJogo()">
+
+  <div class="container-principal">
+
+    <div class="contadores">
+
+      <div class="contador-balao">
+
+        <img src="/estourando-baloes/imagens/balao_azul_grande.png">
+
+        <span id="balao-nao-estourado" class="texto-balao">15</span>
+
+      </div>
+
+      <div class="contador-balao">
+
+        <img src="/estourando-baloes/imagens/balao_azul_grande_estourado.png">
+
+        <span id="balao-estourado" class="texto-balao">15</span>
+
+      </div>
+
+      <div class="cronometro">
+        <img src="/estourando-baloes/imagens/stopwatch.png">
+
+        <!--valor de segundos inserrido através do js-->
+        <span id="tempo_cronometro"></span>
+      </div>
+
+    </div> <!-- contadores -->
+
+    <div class="layout-cenario">
+
+      <div id="conteudo-cenario">
+
+      </div>
+
+    </div> <!-- Cenario -->
+
+  </div> <!-- container principal -->
+
+</body>
+
+</html>

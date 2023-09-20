@@ -1,0 +1,80 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, "sans-serif";
+}
+
+/* Container principal */
+
+.container-principal {
+  width: 800px;
+  height: 800px;
+  background: #fff;
+  margin: 15px 0 0 15px;
+  padding: 10px 0 10px 10px;
+  display: flex;
+  border: 1px solid #004a96;
+}
+
+/* Contadores */
+
+.contadores {
+  width: 140px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contador-balao {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contador-balao > img {
+  width: 70px;
+}
+
+.texto-balao {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #004a96;
+}
+
+.cronometro {
+  display: flex;
+  margin-top: 25px;
+}
+
+.cronometro > img {
+  width: 90px;
+}
+
+#tempo_cronometro {
+  position: relative;
+  right: 62px;
+  top: 26px;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #e51a22;
+}
+
+/* Cenário */
+
+.layout-cenario {
+  width: 600px;
+  height: 550px;
+  background: url(/estourando-baloes/imagens/cenario.png);
+}
+
+#conteudo-cenario {
+  padding: 24px 15px 15px 40px;
+}
+
+#conteudo-cenario img {
+  margin: 5px;
+  width: 48px;
+}
